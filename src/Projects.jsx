@@ -4,7 +4,7 @@ function Projects() {
         <div>
                 <section className="projects">
                     <ProjectCard 
-                        title="Pluto"
+                        title="card1"
                         src="https://bjorgvinkodehode.github.io/Pluto/"
                         description="This is one of the first websites i created, was having some problems deciding how to end this project as it was pretty open ended, but i got the style down in the end and im happy with how it turned out."
                     />
@@ -29,7 +29,6 @@ function Projects() {
                         description="This is the content of section 2."
                     />
                 </section>
-            <footer></footer>
         </div>
     );
 }

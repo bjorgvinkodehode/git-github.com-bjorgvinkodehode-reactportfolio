@@ -1,4 +1,3 @@
-import Footer from "./Footer";
 function Home() {
     return (
       <section className="section1">
@@ -12,7 +11,6 @@ function Home() {
           src="src/assets/bbbb.png"
           alt="picture of the developer"
         />
-        <Footer />
       </section>
       
     );

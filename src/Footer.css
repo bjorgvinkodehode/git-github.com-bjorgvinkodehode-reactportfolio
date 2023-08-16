@@ -4,6 +4,10 @@ Footer {
 .footer-container {
   display: flex;
   justify-content: center;
+  position: fixed;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
 }
 
 .social-icon {
