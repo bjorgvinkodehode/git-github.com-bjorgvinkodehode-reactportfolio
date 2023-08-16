@@ -1,0 +1,154 @@
+:root {
+  font-size: 16px;
+  font-weight: 200;
+  font-family: "Lilita One", cursive;
+  --clr-darkbrown: #210606;
+  --clr-orange: #e57a31;
+  --clr-darkerorange: #963618;
+  --clr-darkviolet: #5d1c94;
+  --clr-violet: #f50af5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+p,
+a,
+h1,
+h2,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--clr-darkbrown);
+  color: var(--clr-orange);
+  text-align: center;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  grid-gap: 20px;
+}
+
+h2 {
+  font-weight: 100;
+  margin-top: 20%;
+  margin-left: 20%;
+  max-width: 80%;
+  color: var(--clr-orange);
+}
+
+.projcth2 {
+  align-items: center;
+  font-weight: 100;
+}
+
+.profilepicture {
+  margin-top: 5%;
+  margin-right: 20%;
+  max-width: 60%;
+  max-height: 60%;
+  border: 5px solid var(--clr-orange);
+  border-radius: 20%;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  align-items: start;
+  grid-gap: 1rem;
+  background-image: url("/src/assets/background3.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -2rem;
+  background-image: url("/src/assets/background1.svg");
+  color: var(--clr-orange);
+  width: 100%;
+}
+
+.aboutText,
+.projectp {
+  max-width: 700px;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.projects {
+  background-image: url("/src/assets/background3.svg");
+  display: grid;
+  grid-auto-flow: row;
+  justify-items: center;
+  grid-gap: 1rem;
+  width: 100%;
+}
+
+header,
+footer {
+  background-color: var(--clr-darkbrown);
+  color: var(--clr-orange);
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
+
+a {
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--clr-darkbrown);
+}
+
+.Welcome {
+  place-items: center;
+  align-items: start;
+  font-size: 5rem;
+  font-weight: 200;
+  text-decoration: none;
+  color: var(--clr-orange);
+  padding: 0.25em 1em;
+  margin: 8px;
+  font-family: "Monoton", cursive;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: var(--clr-darkerorange);
+}
+
+.card1 {
+  justify-content: center;
+  height: 85vh;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  align-items: center;
+  font-weight: 200;
+  display: inline;
+  background: var(--clr-orange);
+  font-size: 0.8rem;
+  border: var(--clr-darkerorange) 0.125em solid;
+  padding: 0.25em 1em;
+  border-radius: 0.25em;
+}
