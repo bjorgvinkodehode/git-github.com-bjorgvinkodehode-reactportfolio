@@ -1,3 +1,4 @@
+import './Home.css';
 function Home() {
     return (
       <section className="section1">
