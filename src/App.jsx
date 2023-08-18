@@ -19,10 +19,10 @@ function Header() {
         title = 'About Me';
         break;
       case '/projects':
-        title = 'My Projects';
+        title = 'Projects';
         break;
       case '/contact':
-        title = 'Contact Me';
+        title = 'Contact';
         break;
       default:
         title = 'Welcome';
@@ -43,6 +43,7 @@ function Header() {
       </header>
     );
   }
+  
 
 function App() {
   return (
